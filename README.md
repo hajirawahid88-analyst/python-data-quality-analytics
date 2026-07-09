@@ -1,26 +1,25 @@
-# python-data-quality-analytics
-I developed a Python-based framework for automated data quality assessment and reporting of large operational datasets
-# Python Data Quality Analytics Framework
+# Python Operational Data Analytics Framework
 
-A Python-based framework for automated data quality assessment, validation, and reporting of large operational datasets.
+A Python-based framework for automated data quality assessment, exploratory data analysis, trend analysis, predictive analytics, and reporting of large operational datasets.
 
 ## Project Overview
 
-This project demonstrates the development of an automated data quality analytics framework using Python. It is designed to identify data quality issues, validate records, generate quality metrics, and produce standardized reports for operational datasets.
+This project demonstrates the development of an end-to-end operational data analytics framework using Python. It automates data validation, quality assessment, exploratory analysis, trend monitoring, and reporting to improve the reliability of operational data and support evidence-based decision-making.
 
-The framework automates repetitive data validation tasks and supports data-driven decision-making by improving the accuracy, consistency, and completeness of datasets.
+In addition to data quality assessment, the framework includes machine learning techniques for forecasting future operational trends using historical data.
 
-> **Note:** This repository uses anonymized/sample data for demonstration purposes. No confidential or organizational data is included.
+> **Note:** This repository uses anonymized sample data for demonstration purposes. No confidential organizational or personally identifiable information is included.
 
 ---
 
 ## Objectives
 
-* Automate data quality assessment using Python.
+* Automate data quality assessment and validation.
 * Detect missing, duplicate, and inconsistent records.
-* Validate data against predefined business rules.
-* Generate data quality metrics and summary reports.
-* Improve data reliability for analytical and operational use.
+* Perform exploratory data analysis (EDA).
+* Monitor operational trends through data visualization.
+* Develop machine learning models for trend forecasting.
+* Generate standardized reports to support decision-making.
 
 ---
 
@@ -29,10 +28,12 @@ The framework automates repetitive data validation tasks and supports data-drive
 * Data loading and preprocessing
 * Missing value analysis
 * Duplicate record detection
-* Data validation using custom rules
-* Data consistency checks
+* Data validation using custom business rules
+* Data consistency and integrity checks
+* Exploratory data analysis (EDA)
+* Trend analysis and visualization
+* Machine learning-based forecasting
 * Automated report generation
-* Data visualization
 * Export of quality reports
 
 ---
@@ -40,7 +41,7 @@ The framework automates repetitive data validation tasks and supports data-drive
 ## Repository Structure
 
 ```text
-python-data-quality-analytics/
+python-operational-data-analytics/
 
 │── README.md
 │── requirements.txt
@@ -53,7 +54,9 @@ python-data-quality-analytics/
 │     ├── 02_Data_Validation.ipynb
 │     ├── 03_Data_Quality_Assessment.ipynb
 │     ├── 04_Exploratory_Data_Analysis.ipynb
-│     └── 05_Automated_Reporting.ipynb
+│     ├── 05_Trend_Analysis.ipynb
+│     ├── 06_Machine_Learning_Forecasting.ipynb
+│     └── 07_Automated_Reporting.ipynb
 │
 ├── src/
 │
@@ -68,19 +71,46 @@ python-data-quality-analytics/
 * Pandas
 * NumPy
 * Matplotlib
+* Scikit-learn
 * Jupyter Notebook / Google Colab
 
 ---
 
 ## Workflow
 
-1. Load operational dataset
-2. Perform data preprocessing
-3. Validate records using predefined rules
-4. Assess data quality metrics
-5. Analyze trends and inconsistencies
-6. Generate automated reports
-7. Export results for decision support
+1. Load operational dataset.
+2. Perform data preprocessing and cleaning.
+3. Validate records using predefined business rules.
+4. Assess data quality metrics.
+5. Conduct exploratory data analysis.
+6. Visualize operational trends.
+7. Train and evaluate machine learning models for forecasting.
+8. Generate automated reports and export analytical results.
+
+---
+
+## Machine Learning
+
+The repository includes predictive analytics to forecast future operational trends using historical data.
+
+### Feature Engineering
+
+* Date and time features
+* Monthly and weekly trends
+* Rolling statistics
+* Historical operational patterns
+
+### Models
+
+* Linear Regression
+* Random Forest Regressor
+* Gradient Boosting (planned)
+
+### Evaluation Metrics
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
 
 ---
 
@@ -88,27 +118,28 @@ python-data-quality-analytics/
 
 This framework can be adapted for:
 
-
 * Government administrative records
+* Traffic and transportation data
+* Healthcare datasets
 * Financial datasets
 * Educational data
 * Customer databases
-* Traffic and transportation data
-* Healthcare datasets
+* Operational performance monitoring
 
 ---
 
 ## Future Improvements
 
-* Interactive dashboard using Power BI
+* Interactive Power BI dashboard
 * Machine learning-based anomaly detection
 * Data quality scoring dashboard
+* Time-series forecasting (ARIMA, Prophet, LSTM)
 * REST API for automated validation
-* Unit testing and continuous integration
+* Unit testing and continuous integration (CI/CD)
 
 ---
 
 ## Disclaimer
 
-This repository is intended for educational and portfolio purposes. All datasets included are anonymized and do not contain confidential or personally identifiable information.
+This repository is intended for educational, research, and portfolio purposes. All datasets included are anonymized or synthetic and do not contain confidential, proprietary, or personally identifiable information.
 
