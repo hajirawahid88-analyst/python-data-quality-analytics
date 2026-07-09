@@ -31,7 +31,6 @@ The framework automates repetitive data validation tasks and supports data-drive
 * Duplicate record detection
 * Data validation using custom rules
 * Data consistency checks
-* Exploratory Data Analysis (EDA)
 * Automated report generation
 * Data visualization
 * Export of quality reports
@@ -69,7 +68,6 @@ python-data-quality-analytics/
 * Pandas
 * NumPy
 * Matplotlib
-* OpenPyXL
 * Jupyter Notebook / Google Colab
 
 ---
@@ -90,20 +88,19 @@ python-data-quality-analytics/
 
 This framework can be adapted for:
 
-* Traffic and transportation data
-* Healthcare datasets
+
 * Government administrative records
 * Financial datasets
 * Educational data
 * Customer databases
-* Business intelligence workflows
+* Traffic and transportation data
+* Healthcare datasets
 
 ---
 
 ## Future Improvements
 
-* Interactive dashboard using Streamlit
-* Automated PDF reporting
+* Interactive dashboard using Power BI
 * Machine learning-based anomaly detection
 * Data quality scoring dashboard
 * REST API for automated validation
