@@ -92,6 +92,7 @@ python-operational-data-analytics/
 ## Machine Learning
 
 The repository includes predictive analytics to forecast future operational trends using historical data.
+![trend Dashboard](trend.jpg)
 ![ML prediction Dashboard](ML%20prediction.jpg)
 
 ### Feature Engineering
