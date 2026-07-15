@@ -5,8 +5,9 @@ A Python-based framework for automated data quality assessment, exploratory data
 ## Project Overview
 
 This project demonstrates the development of an end-to-end operational data analytics framework using Python. It automates data validation, quality assessment, exploratory analysis, trend monitoring, and reporting to improve the reliability of operational data and support evidence-based decision-making.
-
 In addition to data quality assessment, the framework includes machine learning techniques for forecasting future operational trends using historical data.
+![trend Dashboard](trend%20.jpg)
+![ML prediction Dashboard](ML%20prediction.jpg)
 
 > **Note:** This repository uses anonymized sample data for demonstration purposes. No confidential organizational or personally identifiable information is included.
 
@@ -92,8 +93,7 @@ python-operational-data-analytics/
 ## Machine Learning
 
 The repository includes predictive analytics to forecast future operational trends using historical data.
-![trend Dashboard](trend%20.jpg)
-![ML prediction Dashboard](ML%20prediction.jpg)
+
 ### Feature Engineering
 
 * Date and time features
